@@ -7,11 +7,11 @@
 }
 
 .foto-small {
-    width: 200px;
+    width: 150px;
 }
 
 .foto-middle {
-    width: 300px;
+    width: 200px;
 }
 
 .foto-big {
@@ -25,12 +25,13 @@
 
 .font-header1 {
     font-family: verdana;
+    font-size: 100%;
     text-align: center; 
     color: rgb(7, 83, 7)
 }
 
 .font-header {
-    font-size: 25px;
+    font-size: 100%;
     text-align: center;
     color: rgb(5, 68, 5)
     
@@ -44,7 +45,7 @@
 
 .paragraf-style {
     display: inline-block;
-    font-size: 40px;
+    font-size: 100%;
     text-align: left;
 }
 
@@ -69,4 +70,16 @@
 
 .text-container {
     max-width: 100%;
+}
+
+.fixed-favicon {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    z-index: 1000;
+}
+
+.fixed-favicon img {
+    width: 52px;
+    height: 52px;
 }
