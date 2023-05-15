@@ -27,15 +27,24 @@
     font-family: verdana;
     font-size: 100%;
     text-align: center; 
-    color: rgb(7, 83, 7)
+    color: rgb(7, 83, 7);
+    text-transform: uppercase;
+    padding-top:34px;
 }
 
 .font-header {
-    font-size: 100%;
+    font-size: 25px;
     text-align: center;
     color: rgb(5, 68, 5)
     
 }
+
+
+.font-header2 {
+    font-family: 'Inter', sans-serif;
+
+}
+
 
 .blok-foto {
     display: flex;
