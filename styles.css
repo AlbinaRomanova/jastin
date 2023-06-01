@@ -1,90 +1,9 @@
-.zigzag-line {
-    width: 100%;
-    height: 10px;
-    background: linear-gradient(-45deg, #000 25%, transparent 25%, transparent 50%, #000 50%, #000 75%, transparent 75%, transparent);
-    background-size: 20px 20px;
-    margin: 20px 0;
-}
 
-.foto-small {
-    width: 150px;
-}
-
-.foto-middle {
-    width: 200px;
-}
-
-.foto-big {
-    width: 400px;
-}
-
-.fon {
-    background-color: rgb(255, 255, 255);
-
-}
-
-.font-header1 {
-    font-family: verdana;
-    font-size: 100%;
-    text-align: center; 
-    color: rgb(7, 83, 7);
-    text-transform: uppercase;
-    padding-top:34px;
-}
-
-.font-header {
-    font-size: 25px;
-    text-align: center;
-    color: rgb(5, 68, 5)
-    
-}
-
-
-.font-header2 {
-    font-family: 'Inter', sans-serif;
-
-}
-
-
-.blok-foto {
-    display: flex;
-    justify-content: center;
-}
-
-
-.paragraf-style {
-    display: inline-block;
-    font-size: 100%;
-    text-align: left;
-}
-
-.centered-container {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-}
-
-.image-and-text {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: left;
-}
-
-.image-container {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
-
-.text-container {
-    max-width: 100%;
-}
-
+  
 .fixed-favicon {
     position: fixed;
     top: 10px;
-    right: 10px;
+    left: 10px;
     z-index: 1000;
 }
 
@@ -93,6 +12,129 @@
     height: 52px;
 }
 
-.background {background: rgb(245, 170, 183)
-
+.background {
+    background: rbg #926b6b;
 }
+
+ .font-header1 {
+    font-style: italic;
+    color: #493535;
+    font-size: 36px;
+    font-family: "pacifico";
+    text-align: center;
+}
+
+.header-container {
+    display: flex;
+    justify-content: flex-start;
+    font-style: italic;
+    font-size: 16px;
+    font-family: pacifico;
+}
+
+
+.header-image {
+  width: 32px;
+  height: 32px;
+  margin-left: 110px;
+  margin-top: 30px;
+}
+
+  .header-container h2:first-child {
+    margin-right: 200px;
+}
+
+  .header-container h2:last-child {
+    margin-right: 0;
+}
+
+  body {
+    background-color: rgb(238, 227, 229);
+    margin: 0;
+  }
+  
+  .container {
+    border-top: 40px solid rgb(221, 236, 241);
+  }
+
+  p {
+    width: 300px;
+    height: 160px;
+    margin-top: 200px;
+    margin-left: 300px;
+    color: #362626;
+  }
+
+  .image {
+    float: right;
+    margin-left: 200px;
+    width: 25%;
+    opacity: 0.6;
+    position: relative;
+    left: -300px;
+    top: -100px;
+ }
+  
+ .playlist-button {
+  width: 600px;
+  height: 30px;
+  background-color: rgb(204, 194, 196); /* Розовый цвет */
+  color: white; /* Белый цвет текста */
+  position: absolute; /* Для точного позиционирования кнопки */
+  left: 300px; /* Отступ слева */
+  top: 800px; /* Отступ сверху */
+  border: none; /* Убираем рамку вокруг кнопки */
+  font-size: 16px; /* Размер шрифта */
+  cursor: pointer; /* При наведении становится рукой */
+}
+
+.white-bar {
+  width: 100%;
+  height: 200px;
+  background: white;
+  position: relative;
+  margin-top: 500px;
+  display: flex;
+  justify-content: space-between; /* Изменение на space-between для распределения элементов по краям */
+  align-items: center;
+}
+
+.white-bar span {
+  color: rgb(61, 59, 59); /* Цвет текста */
+  font-style: italic;
+  color: #493535;
+  font-size: 20px;
+  font-family: "pacifico";
+}
+
+.reviews {
+  margin-left: 100px; /* Отступ от левого края */
+}
+
+.contacts {
+  margin-left: 240px; /* Отступ от предыдущего текстового блока */
+}
+
+.phone {
+  margin-left: 290px; /* Отступ от предыдущего текстового блока */
+}
+.social-media {
+  display: flex;
+  margin-right: 100px; /* Отступ от правого края */
+}
+
+.social-media a {
+  margin-left: 140px; /* Отступ между логотипами */
+}
+
+.social-media img {
+  width: 62px; /* Установите размеры изображения согласно вашим потребностям */
+  height: 62px;
+}
+
+
+
+
+
+
+
