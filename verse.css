@@ -1,0 +1,120 @@
+
+@font-face {
+    font-family: 'Lobster Regular';
+    src: url('font/Lobster-Regular.woff2') format('woff2'),
+         url('font/Lobster-Regular.woff') format('woff'),
+         url('font/Lobster-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  .font-header1 {
+    margin-top: 70px;
+     color: #354749;
+     font-size: 30px;
+     margin-left: 43%;
+ }
+
+.background {
+    background: #e5eaf0;
+}
+body {
+    font-family: 'Lobster Regular', sans-serif;
+  }
+  
+  .font-header2 {
+     color: #493535;
+     font-size: 20px;
+     text-align: center;
+
+  }
+
+  p {
+    width: 450px;
+    min-height: 160px;
+    margin-top: 50px;
+    margin-left: 40%;
+    margin-bottom: 200px;
+    color: #412b2b;
+    font-size: 22px;
+
+  }
+
+  h2 { 
+    margin-left: 43%;
+    font-size: 25px;
+}
+
+  .contents {
+    margin-left: 41%;
+    margin-bottom: 20%;
+}
+
+#poem1 img {
+  display: block;
+  width: 590px;
+  height: 480px;
+  object-fit: cover; /* Позволяет изображению заполнить блок, сохраняя свои пропорции */
+  margin-left: auto; /* Автоматический отступ слева */
+  margin-right: auto; 
+  margin-bottom: 100px;/* Автоматический отступ справа */
+}
+
+#poem2 img {
+  display: block;
+  width: 590px;
+  height: 480px;
+  object-fit: cover; /* Позволяет изображению заполнить блок, сохраняя свои пропорции */
+  margin-left: auto; /* Автоматический отступ слева */
+  margin-right: auto;
+  margin-bottom: 100px; /* Автоматический отступ справа */
+}
+
+#poem3 img {
+  display: block;
+  width: 590px;
+  height: 480px;
+  object-fit: cover; /* Позволяет изображению заполнить блок, сохраняя свои пропорции */
+  margin-left: auto; /* Автоматический отступ слева */
+  margin-right: auto;
+  margin-bottom: 100px; /* Автоматический отступ справа */
+}
+
+#poem4 img {
+  display: block;
+  width: 590px;
+  height: 480px;
+  object-fit: cover; /* Позволяет изображению заполнить блок, сохраняя свои пропорции */
+  margin-left: auto; /* Автоматический отступ слева */
+  margin-right: auto;
+  margin-bottom: 100px; /* Автоматический отступ справа */
+}
+
+#poem5 img {
+  display: block;
+  width: 590px;
+  height: 480px;
+  object-fit: cover; /* Позволяет изображению заполнить блок, сохраняя свои пропорции */
+  margin-left: auto; /* Автоматический отступ слева */
+  margin-right: auto;
+  margin-bottom: 100px; /* Автоматический отступ справа */
+}
+
+#poem6 img {
+  display: block;
+  width: 590px;
+  height: 480px;
+  object-fit: cover; /* Позволяет изображению заполнить блок, сохраняя свои пропорции */
+  margin-left: auto; /* Автоматический отступ слева */
+  margin-right: auto;
+  margin-bottom: 100px; /* Автоматический отступ справа */
+}
+
+.poem {
+  margin-bottom: 100px;
+}
+
+.image {
+  margin-top: 100px;
+  margin-bottom: 200px;
+}
+

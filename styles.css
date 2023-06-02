@@ -1,3 +1,11 @@
+@font-face {
+  font-family: 'Lobster Regular';
+  src: url('font/Lobster-Regular.ttf');
+}
+
+body {
+  font-family: 'Lobster Regular', sans-serif;
+}
 
   
 .fixed-favicon {
@@ -13,14 +21,14 @@
 }
 
 .background {
-    background: rbg #926b6b;
+  background: #f1edec;
 }
 
  .font-header1 {
-    font-style: italic;
+   /* font-style: italic;*/
     color: #493535;
-    font-size: 36px;
-    font-family: "pacifico";
+    font-size: 39px;
+   /*font-family: "pacifico";*/
     text-align: center;
 }
 
@@ -29,56 +37,58 @@
     justify-content: flex-start;
     font-style: italic;
     font-size: 16px;
-    font-family: pacifico;
+    /*font-family: pacifico;*/
 }
 
 
 .header-image {
   width: 32px;
   height: 32px;
-  margin-left: 110px;
+  margin-left: 300px;
   margin-top: 30px;
 }
 
-  .header-container h2:first-child {
+.header-container h2:first-child {
     margin-right: 200px;
 }
 
-  .header-container h2:last-child {
+.header-container h2:last-child {
     margin-right: 0;
 }
 
-  body {
-    background-color: rgb(238, 227, 229);
+body {
+    background-color: rgb(247, 242, 243);
     margin: 0;
   }
   
-  .container {
+.container {
     border-top: 40px solid rgb(221, 236, 241);
+    width: 1980px;
   }
 
-  p {
+ p {
     width: 300px;
     height: 160px;
     margin-top: 200px;
     margin-left: 300px;
-    color: #362626;
+    margin-bottom: 200px;
+    color: #412b2b;
   }
 
-  .image {
+.image {
     float: right;
     margin-left: 200px;
-    width: 25%;
+    width: 45%;
     opacity: 0.6;
     position: relative;
-    left: -300px;
-    top: -100px;
+    left: -400px;
+    top: -140px;
  }
   
  .playlist-button {
   width: 600px;
   height: 30px;
-  background-color: rgb(204, 194, 196); /* Розовый цвет */
+  background-color: rgb(230, 222, 224); /* Розовый цвет */
   color: white; /* Белый цвет текста */
   position: absolute; /* Для точного позиционирования кнопки */
   left: 300px; /* Отступ слева */
@@ -108,15 +118,15 @@
 }
 
 .reviews {
-  margin-left: 100px; /* Отступ от левого края */
+  margin-left: 110px; /* Отступ от левого края */
 }
 
 .contacts {
-  margin-left: 240px; /* Отступ от предыдущего текстового блока */
+  margin-left: 140px; /* Отступ от предыдущего текстового блока */
 }
 
 .phone {
-  margin-left: 290px; /* Отступ от предыдущего текстового блока */
+  margin-left: 130px; /* Отступ от предыдущего текстового блока */
 }
 .social-media {
   display: flex;
@@ -131,9 +141,16 @@
   width: 62px; /* Установите размеры изображения согласно вашим потребностям */
 }
 
+.h2 {
+  margin-left: 300px;
+}
 
+.h2-2 {
+  margin-left: 900px;
+}
 
-
-
-
-
+.audio-player {
+  position: absolute;
+  top: 800px;
+  left: 300px;
+}
