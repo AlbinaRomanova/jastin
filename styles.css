@@ -24,12 +24,26 @@ body {
   background: #f1edec;
 }
 
- .font-header1 {
-   /* font-style: italic;*/
-    color: #493535;
-    font-size: 39px;
-   /*font-family: "pacifico";*/
-    text-align: center;
+.header-line {
+  display: flex;
+  justify-content: center; /* выровнять элементы по горизонтали */
+  align-items: center; /* выровнять элементы по вертикали */
+  position: relative;
+}
+
+.header-title {
+  color: #493535;
+  font-size: 40px;
+  margin-top: 10px;
+  text-align: center;
+  flex-grow: 1; /* занимает все свободное пространство, выравнивая h1 по центру */
+}
+
+.header-image {
+  width: 32px;
+  height: 32px;
+  position: absolute; 
+  right: 50px;
 }
 
 .header-container {
@@ -37,15 +51,6 @@ body {
     justify-content: flex-start;
     font-style: italic;
     font-size: 16px;
-    /*font-family: pacifico;*/
-}
-
-
-.header-image {
-  width: 32px;
-  height: 32px;
-  margin-left: 300px;
-  margin-top: 30px;
 }
 
 .header-container h2:first-child {
@@ -61,11 +66,6 @@ body {
     margin: 0;
   }
   
-.container {
-    border-top: 40px solid rgb(221, 236, 241);
-    width: 1980px;
-  }
-
  p {
     width: 300px;
     height: 160px;
@@ -78,11 +78,11 @@ body {
 .image {
     float: right;
     margin-left: 200px;
-    width: 45%;
+    width: 25%;
     opacity: 0.6;
     position: relative;
-    left: -400px;
-    top: -140px;
+    left: -450px;
+    top: -100px;
  }
   
  .playlist-button {
