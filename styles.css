@@ -5,9 +5,17 @@
 
 body {
   font-family: 'Lobster Regular', sans-serif;
+  display: flex;
+  flex-direction: column;
 }
 
-  
+@media screen and (min-width: 768px) {
+  body {
+    display: block;
+  }
+}
+
+
 .fixed-favicon {
     position: fixed;
     top: 10px;
