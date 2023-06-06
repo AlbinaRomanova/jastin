@@ -94,21 +94,21 @@ body {
  }
   
  .playlist-button {
-  width: 600px;
+  width: 500px;
   height: 30px;
   background-color: rgb(230, 222, 224); /* Розовый цвет */
   color: white; /* Белый цвет текста */
   position: absolute; /* Для точного позиционирования кнопки */
   left: 300px; /* Отступ слева */
-  top: 800px; /* Отступ сверху */
-  border: none; /* Убираем рамку вокруг кнопки */
-  font-size: 16px; /* Размер шрифта */
+  top: 600px; 
+  border: none; 
+  font-size: 16px; 
   cursor: pointer; /* При наведении становится рукой */
 }
 
 .white-bar {
   width: 100%;
-  height: 200px;
+  height: 100px;
   background: white;
   position: fixed;
   bottom: 0;
@@ -160,7 +160,6 @@ body {
 }
 
 .audio-player {
-  position: absolute;
-  top: 800px;
-  left: 300px;
+ margin-top: 10px;
+ margin-left: 290px;
 }
