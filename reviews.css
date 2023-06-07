@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Lobster Regular';
+    src: url('Lobster-Regular.ttf');
+  }
+
+  body {
+    margin-left: 40%;
+    background-color: #ececf3; /* Цвет фона */
+    font-size: 20px; /* Размер шрифта */
+    font-family: Lobster Regular, sans-serif; /* Стиль шрифта */
+    color: #311d1d; /* Цвет шрифта */
+}

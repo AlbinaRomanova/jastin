@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="reviews.css">  
+        <title>Отзывы</title>    
+    </head>
+      
+    <body class="body.background">
+        <h1 class="header-title">Отзывы</h1>
+        <!-- Ваша форма отзывов здесь -->
+        <div class="feedback-form">
+            <form action="/submit_feedback" method="post">
+                <label for="name">Ваше имя:</label><br>
+                <input type="text" id="name" name="name"><br>
+        
+                <label for="email">Ваш email:</label><br>
+                <input type="email" id="email" name="email"><br>
+        
+                <label for="rating">Ваша оценка:</label><br>
+                <select id="rating" name="rating">
+                    <option value="5">5</option>
+                    <option value="4">4</option>
+                    <option value="3">3</option>
+                    <option value="2">2</option>
+                    <option value="1">1</option>
+                </select><br>
+        
+                <label for="comments">Ваш отзыв:</label><br>
+                <textarea id="comments" name="comments"></textarea><br>
+        
+                <input type="submit" value="Отправить отзыв">
+            </form>
+        </div>
+        
+    </body>
+</html>

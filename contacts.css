@@ -1,0 +1,28 @@
+@font-face {
+    font-family: 'Lobster Regular';
+    src: url('Lobster-Regular.ttf');
+  }
+
+.background {
+    background-color: #ececf3;
+}
+.header-title {
+    color: #6d4545;
+    font-style: italic;
+    font-family: 'Lobster Regular';
+    font-size: 28px;
+    text-align: center;
+    flex-grow: 1; /* занимает все свободное пространство, выравнивая h1 по центру */
+  }
+  .p {
+    flex: auto;
+    margin-left: 42%;
+    color: #2139c2;
+  }
+  
+  .p1 {
+    flex: auto;
+    margin-left: 42%;
+    color: #db7171;
+  }
+  
