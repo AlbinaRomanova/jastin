@@ -10,13 +10,40 @@
 
  @media screen and (max-width: 600px) {
   .image {
-      flex: 0 0 100%;
-      margin: 10px;
-      box-sizing: border-box;
+    flex: 0 0 100%;
+    margin: 10px;
+    box-sizing: border-box;
   }
+  .poem img {
+    width: 100%;
+    height: auto;
+  }
+
+  p {
+    margin-left: 5%;
+    width: 90%;
+  }
+
+  .contents {
+    margin-left: 0;
+  }
+
+  
+
+.fixed-contents {
+  position: fixed;
+  left: 2%; 
+  top: 3%; 
+  text-align: left; /* Используйте текст выровненный по левому краю для десктопной версии */
 }
 
- 
+@media screen and (max-width: 600px) {
+  .fixed-contents {
+    position: static; /* Отключает фиксированное положение на мобильных устройствах */
+    text-align: center; /* Выравнивает текст по центру на мобильных устройствах */
+  }
+}
+  
   .background {
       background: #e5eaf0;
 }
@@ -26,13 +53,15 @@
 }
 
   .font-header1 {
-    margin-top: 70px;
+    margin-top: 5%;
      color: #302525;
      font-size: 30px;
-     
+     margin-left: 5%;
      font-family: 'Lobster Regular', sans-serif;
 }
   
+
+
   .font-header2 {
      color: #302525;
      font-size: 18px;
@@ -51,24 +80,68 @@
     font-size: 22px;
 }
 
+@media screen and (max-width: 600px) {
+  p {
+    text-align: center;
+    width: 50%;
+    margin: 50px auto;
+    font-size: 18px;
+    text-align: justify;
+  }
+}
+
   h2 { 
     color: #302525;
     margin-left: 43%;
     font-size: 25px;
 }
 
-  .contents {
+@media screen and (max-width: 600px) {
+  h2 {
     color: #302525;
-    margin-left: 41%;
-    margin-bottom: 20%;
+    margin-left: 10%;
+    font-size: 18px;
+  
 }
 
+/* Ваш общий стиль здесь... */
 .fixed-contents {
-  font-family: 'fresca', sans-serif;
   position: fixed;
   left: 2%; 
   top: 3%; 
+  text-align: left; 
+  font-size: 17px;
 }
+
+@media screen and (max-width: 600px) {
+  .image {
+    flex: 0 0 100%;
+    margin: 10px;
+    box-sizing: border-box;
+  }
+  .poem img {
+    width: 100%;
+    height: auto;
+  }
+
+  p {
+    margin-left: 5%;
+    width: 90%;
+    font-size: 16px;
+  }
+
+  .contents {
+    margin-left: 0;
+  }
+
+  .fixed-contents {
+    position: static;
+    text-align: center;
+    width: 100%;
+  }
+}
+/* Остальной стиль здесь... */
+
 
 
 .poem img {
@@ -80,6 +153,17 @@
   margin-right: auto; 
   margin-bottom: 100px;/* Автоматический отступ справа */
 }
+
+@media screen and (max-width: 600px) {
+  .poem img {
+    width: 90%; /* измените ширину на 90% для учета отступов с обеих сторон */
+    height: auto;
+    margin-left: 5%; /* добавьте отступы для центрирования изображения */
+    margin-right: 5%;
+  }
+  /* остальной стиль... */
+}
+
 
 .poem {
   margin-bottom: 100px;
@@ -100,10 +184,9 @@
 .audio-player {
   position: absolute;
   top: 700px;
-  margin-left: 100 px;
+  margin-left: 100px;
 }
 
-/* Модальное окно */
 .modal {
   display: none; 
   position: fixed; 
