@@ -1,29 +1,24 @@
-document.addEventListener('DOMContentLoaded', function () {
+console.log('Скрипт загружен');
+
+document.addEventListener('DOMContentLoaded', (event) => {
   const audioPlayer = document.querySelector('.audio-player');
-  if (!audioPlayer) return;
   let isMoving = false;
+  let startX = 0; let startY = 0;
 
-  audioPlayer.addEventListener('pointerdown', (e) => {
-    const startX = e.clientX - audioPlayer.offsetLeft;
-    const startY = e.clientY - audioPlayer.offsetTop;
+  audioPlayer.addEventListener('mousedown', (e) => {
+    startX = e.clientX - audioPlayer.offsetLeft;
+    startY = e.clientY - audioPlayer.offsetTop;
     isMoving = true;
+  });
 
-    function move (e) {
-      if (isMoving) {
-        audioPlayer.style.left = (e.clientX - startX) + 'px';
-        audioPlayer.style.top = (e.clientY - startY) + 'px';
-      }
+  document.addEventListener('mousemove', (e) => {
+    if (isMoving) {
+      audioPlayer.style.left = (e.clientX - startX) + 'px';
+      audioPlayer.style.top = (e.clientY - startY) + 'px';
     }
+  });
 
-    function stopMove () {
-      if (isMoving) {
-        isMoving = false;
-        document.removeEventListener('pointermove', move);
-        document.removeEventListener('pointerup', stopMove);
-      }
-    }
-
-    document.addEventListener('pointermove', move);
-    document.addEventListener('pointerup', stopMove);
+  document.addEventListener('mouseup', () => {
+    isMoving = false;
   });
 });

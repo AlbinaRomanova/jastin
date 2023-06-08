@@ -1,8 +1,6 @@
 @font-face {
     font-family: 'Lobster Regular';
-    src: url('font/Lobster-Regular.woff2') format('woff2'),
-         url('font/Lobster-Regular.woff') format('woff'),
-         url('font/Lobster-Regular.ttf') format('truetype');
+    src:  url('Lobster-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
  }
@@ -47,6 +45,7 @@
 
   .background {
       background: #e5eaf0;
+      position: relative ;
 }
 
 
@@ -187,9 +186,10 @@
   right: 50px; /* расположение изображения справа на 50px от края */
 }
 
+
 .audio-player {
-  position:absolute;
+  position: absolute;
   top: 50px;
-  left: 50px;
+  left: 5px;
   cursor: move;
 }
