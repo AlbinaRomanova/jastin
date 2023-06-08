@@ -186,10 +186,16 @@
   right: 50px; /* расположение изображения справа на 50px от края */
 }
 
+.audio-container {
+  position: fixed;
+}
+
+.drag-area {
+  width: 48px;
+  height: 48px;
+}
 
 .audio-player {
-  position: absolute;
   top: 50px;
   left: 5px;
-  cursor: move;
 }
