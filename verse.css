@@ -181,11 +181,10 @@
   right: 50px; /* расположение изображения справа на 50px от края */
 }
 
-.audio-player {
+audio-player {
   position: absolute;
   top: 700px;
   margin-left: 100px;
-}
 
 .modal {
   display: none; 
