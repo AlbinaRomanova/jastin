@@ -10,3 +10,13 @@
     font-family: Lobster Regular, sans-serif; /* Стиль шрифта */
     color: #311d1d; /* Цвет шрифта */
 }
+
+.header-image {
+  width: 40px;
+  height: 40px;
+}
+
+.img-position {
+  margin-left: 3%;
+  margin-top: 3%;
+}

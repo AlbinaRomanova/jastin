@@ -46,12 +46,12 @@ body {
 }
 
 p {
-  width: 30%;
+  width: 80%;
   height: 50%;
   margin-left: 10%;
   color: #181111;
   font-family: 'Your font family';
-  font-size: 16px;
+  font-size: 20px;
 }
 
 /* Указываем размер шрифта для экранов шириной не больше 600px (смартфоны, планшеты в портретной ориентации) */

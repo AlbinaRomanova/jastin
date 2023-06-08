@@ -14,10 +14,27 @@
     text-align: center;
     flex-grow: 1; /* занимает все свободное пространство, выравнивая h1 по центру */
   }
-  .p {
+
+  @media screen and (max-width: 600px) {
+    .header-title  {
+      align-items: center;
+    }
+  
+    .header-title  {
+      font-size: 28px;
+       margin-left: 10%;
+       margin-right: 10%;
+    }
+  }
+
+
+  p {
+    margin-top: 3%;
+
     flex: auto;
     margin-left: 42%;
-    color: #2139c2;
+    color: #0e3877;
+    font-size: 20px;
   }
   
   .p1 {
@@ -25,4 +42,27 @@
     margin-left: 42%;
     color: #db7171;
   }
+
+  @media screen and (max-width: 600px) {
+    p, .p1 {
+      align-items: center;
+    }
   
+    p, .p1 {
+      font-size: 18px;
+       margin-left: 10%;
+       margin-right: 10%;
+    }
+  }
+  
+  
+  .header-image {
+    width: 40px;
+    height: 40px;
+  }
+
+  .img-position {
+    margin-left: 3%;
+    margin-top: 3%;
+  }
+ 
