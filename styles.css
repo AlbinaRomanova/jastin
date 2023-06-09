@@ -54,10 +54,9 @@ p {
   font-size: 20px;
 }
 
-/* Указываем размер шрифта для экранов шириной не больше 600px (смартфоны, планшеты в портретной ориентации) */
 @media screen and (max-width: 600px) {
   p {
-      font-size: 15px; /* или любой другой размер, который вам подходит */
+      font-size: 15px; 
   }
 }
 
@@ -70,6 +69,7 @@ p {
 
  .white-bar span {
       font-size: 14px;
+  
 }
 
   .reviews, .contacts, .phone {
@@ -80,16 +80,19 @@ p {
       margin-right: 5vw;
   }
 
-  /* Увеличьте размеры изображения для лучшей видимости на маленьких экранах */
+
   .social-media img {
       width: 70%;
   }
 }
 
+
+
+
 .white-bar {
   width: 100%;
-  height: 5vw;
-  background: white;
+  height: 6vw;
+  background: rgb(240, 235, 235);
   position: fixed;
   bottom: 0;
   display: flex;
@@ -97,8 +100,15 @@ p {
   align-items: center;
 }
 
+@media screen and (max-width: 600px) {
+  .white-bar {
+    height: 9vw;
+ }
+}
+
+
 .white-bar a {
-  color: rgb(61, 59, 59);
+
   font-style: italic;
   color: #493535;
   font-size: 14px;

@@ -33,6 +33,18 @@
   top: 3%; 
   text-align: left; 
 }
+.contents li {
+  list-style-type: none; /* Убирает стандартные маркеры */
+  text-align: center; /* Выравнивает текст по центру */
+}
+
+.contents li::before {
+  content: "*"; 
+  color: #e03b2c;/* Вставляет маркер */
+  padding-right: 10px; /* Добавляет немного пространства справа от маркера */
+}
+
+
 
 
 @media screen and (max-width: 600px) {
@@ -187,15 +199,20 @@
 }
 
 .audio-container {
-  position: fixed;
+  position: fixed; 
+  left: 100px;
+}
+
+@media screen and (max-width: 600px) {
+  .audio-container {
+    left: 53px;
+   }
 }
 
 .drag-area {
-  width: 48px;
-  height: 48px;
+  width: 38px;
+  height: 38px;
+
 }
 
-.audio-player {
-  top: 50px;
-  left: 5px;
-}
+
